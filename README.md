@@ -1,4 +1,4 @@
-# Fabirt toolbox
+# Fabirt Flutter toolbox
 
 Company Flutter package that wraps common widgets and tools.
 
@@ -8,7 +8,9 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-    fabirt_toolbox: ^0.0.1
+    fabirt_toolbox:
+        git:
+            url: git://github.com/fabirt/fabirt-flutter-toolbox.git
 ```
 
 ## Usage
